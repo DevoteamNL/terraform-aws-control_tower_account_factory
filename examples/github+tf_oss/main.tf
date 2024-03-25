@@ -16,5 +16,7 @@ module "aft" {
   global_customizations_repo_name               = "DevoteamNL/aft-global-customizations"
   account_customizations_repo_name              = "DevoteamNL/aft-account-customizations"
   account_provisioning_customizations_repo_name = "DevoteamNL/aft-provisioning-customizations"
+
+  aft_enable_vpc = false
 }
 
